@@ -146,12 +146,11 @@ const Cookies = () => {
             <p>
               If you have any questions, feel free to contact us:
               <br />
-              <strong>Email:</strong> srjsoftechsolutions@gmail.com
+              <strong>Email:</strong> srjglobaltechnology@gmail.com
               <br />
-              <strong>Phone:</strong> +91 92665 94199
+              <strong>Phone:</strong> +91 96251 90448, +91 92667 06599
               <br />
-              <strong>Address:</strong> Urbtech Trade Centre, Tower 35, Adjacent to DPS
-              School, Block B, Sector 132, Noida, UP 201304
+              <strong>Address:</strong> Urbtech Trade Centre, Tower C, Adjacent to DPS School, Sector 132, Noida, Uttar Pradesh 201304
             </p>
           </section>
         </div>
