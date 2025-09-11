@@ -7,6 +7,8 @@ const Terms = () => {
     show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   };
 
+  const lastUpdated = "09-10-2025";
+
   return (
     <motion.div
       initial="hidden"
@@ -22,15 +24,11 @@ const Terms = () => {
         <div className="bg-white/90 shadow-xl backdrop-blur rounded-2xl p-6 sm:p-10 border border-gray-200">
           <div className="prose prose-lg max-w-none text-gray-700">
             <p className="text-sm text-gray-500 mb-6 italic">
-              Last Updated: {new Date().toLocaleDateString()}
+              Last Updated: {new Date(lastUpdated).toLocaleDateString()}
             </p>
 
             <p className="py-4">
-              Welcome to SRJ Global Technologies (“we,” “our,” or “us”). These
-              Terms and Conditions (“Terms”) outline the rules and regulations
-              for the use of our IT services, products, and solutions. By
-              engaging with our services, you agree to comply with these Terms.
-              If you do not agree, please discontinue using our services.
+              Welcome to SRJ Global Technologies (“we,” “our,” or “us”). We’re delighted to have you here! These Terms and Conditions (“Terms”) are meant to provide clarity on how you can enjoy and make the most of our IT services, products, and solutions. By choosing to work with us, you’re placing your trust in our team, and we’re committed to supporting you every step of the way. If at any time these Terms don’t meet your expectations, you always have the option to discontinue using our services — though we’ll be sad to see you go.
             </p>
 
             {[
