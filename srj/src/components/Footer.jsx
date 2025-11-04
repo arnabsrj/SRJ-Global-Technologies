@@ -37,12 +37,12 @@ const Footer = () => {
             </h1>
           </NavLink>
           <p className="text-sm text-gray-400 mt-2">
-           Innovative digital solutions: we build high-quality websites, mobile
+            Innovative digital solutions: we build high-quality websites, mobile
             apps, and e-commerce platforms for growing brands.
           </p>
           <div className="flex gap-5 mt-8">
             <a
-              href="https://www.instagram.com/srjglobalsoftech"
+              href="https://www.instagram.com/srjglobaltechnologies/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-white/10 text-[#0A49D9] hover:text-white hover:bg-[#0A49D9] transition"
@@ -60,7 +60,7 @@ const Footer = () => {
               <FaPinterest className="sm:text-2xl text-lg" />
             </a>
             <a
-              href="https://www.youtube.com/@srjglobalsoftech"
+              href="http://www.youtube.com/@SRJGlobalTechnology"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-white/10 text-[#0A49D9] hover:text-white hover:bg-[#0A49D9] transition"
@@ -147,11 +147,19 @@ const Footer = () => {
               </span>
             </li>
             <li>
-              Address:
+              Office:
               <span className="block text-[#38BDF8] mt-1">
-                Urbtech Trade Center Tower, <br></br>
-                C -1101 Noida Sector-132,<br></br>
-                 Uttar Pradesh 201304
+                Urbtech Trade Center Tower, <br></br>C -1101 Noida Sector-132,
+                <br></br>
+                Uttar Pradesh 201304
+              </span>
+            </li>
+            <li>
+              Sub Branch Office:
+              <span className="block text-[#38BDF8] mt-1">
+                Supertech Astralis, <br></br>
+                Astralis Noida Sector 94,<br></br>
+                Uttar Pradesh 201313
               </span>
             </li>
           </ul>
@@ -199,7 +207,8 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="mt-10 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} SRJ Global Technologies. All rights reserved.
+        © {new Date().getFullYear()} SRJ Global Technologies. All rights
+        reserved.
       </div>
 
       {/* Floating Chatbot & Chat Icons */}

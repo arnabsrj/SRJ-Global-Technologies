@@ -130,7 +130,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen mt-[100px] pb-1 bg-white dark:bg-[#0e0e0e] pt-28 px-6 sm:px-10 text-black dark:text-white transition-colors duration-500">
+    <div className="min-h-screen mt-[100px] pb-1 bg-white dark:bg-[#0e0e0e] pt-15 px-6 sm:px-10 text-black dark:text-white transition-colors duration-500">
       {/* Header Section */}
       <div className="max-w-5xl mx-auto text-center mb-16">
         <motion.div
@@ -174,7 +174,7 @@ const Contact = () => {
       {/* Contact Form */}
       <motion.form
         onSubmit={handleSubmit}
-        className="max-w-4xl mx-auto bg-white dark:bg-[#1a1a1a] shadow-2xl rounded-2xl p-8 mb-16 grid grid-cols-1 md:grid-cols-2 gap-6"
+        className="max-w-4xl mx-auto bg-white dark:bg-[#1a1a1a] shadow-2xl rounded-2xl p-8 mb-10 grid grid-cols-1 md:grid-cols-2 gap-6"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -292,7 +292,7 @@ const Contact = () => {
               <h4 className="text-lg font-semibold mb-1">Phone</h4>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                 +91 96251 90448 <br />
-                +91 92667 06599 
+                +91 92667 06599
               </p>
             </div>
           </div>
@@ -330,11 +330,32 @@ const Contact = () => {
               />
             </svg>
             <div>
-              <h4 className="text-lg font-semibold mb-1">Address</h4>
+              <h4 className="text-lg font-semibold mb-1">Office</h4>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                 Urbtech Trade Center Tower,<br></br>C -1101 Noida Sector-132,
                 <br></br>
                 Uttar Pradesh 201304
+              </p>
+            </div>
+            <svg
+              className="w-6 h-6 text-[#0A49D9] dark:text-[#38BDF8]"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M17.657 16.657L13 21.314V10a1 1 0 00-2 0v11.314l-4.657-4.657a8 8 0 1111.314 0z"
+              />
+            </svg>
+            <div>
+              <h4 className="text-lg font-semibold mb-1">Sub Branch Office</h4>
+              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                Supertech Astralis,<br></br>Astralis Noida Sector 94,
+                <br></br>
+                Uttar Pradesh 201313
               </p>
             </div>
           </div>

@@ -63,7 +63,7 @@ const services = [
   {
     id: "E-Commerce-Development",
     title: "E-Commerce Development",
-    desc: "SRJ Global Technologiesoffers total start to finish eCommerce improvement arrangements across different industries. We cover each basic action focused on at the turn of events, upkeep, and development of a web store. We perform on creating web arrangements that are the best component with your satisfaction. ",
+    desc: "SRJ Global Technologies offers total start to finish eCommerce improvement arrangements across different industries. We cover each basic action focused on at the turn of events, upkeep, and development of a web store. We perform on creating web arrangements that are the best component with your satisfaction. ",
     img: sampleImg2,
   },
    {
@@ -102,7 +102,7 @@ const services = [
   {
     id: "Content-Writing",
     title: "Content Writing",
-    desc: "SRJ Global Technologiesoffers convincing substance for your sites to arrive at the main interest group according to your business idea. Content composing administrations to compose content for powerful internet showcasing. Our group of expert scholars and editors give great site content composing administrations which are based on SEO puposes. ",
+    desc: "SRJ Global Technologies offers convincing substance for your sites to arrive at the main interest group according to your business idea. Content composing administrations to compose content for powerful internet showcasing. Our group of expert scholars and editors give great site content composing administrations which are based on SEO puposes. ",
     img: sampleImg11,
   },
   {
