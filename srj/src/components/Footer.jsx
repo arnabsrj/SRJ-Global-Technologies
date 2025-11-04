@@ -154,14 +154,14 @@ const Footer = () => {
                 Uttar Pradesh 201304
               </span>
             </li>
-            <li>
+            {/* <li>
               Sub Branch Office:
               <span className="block text-[#38BDF8] mt-1">
                 Supertech Astralis, <br></br>
                 Astralis Noida Sector 94,<br></br>
                 Uttar Pradesh 201313
               </span>
-            </li>
+            </li> */}
           </ul>
         </div>
 

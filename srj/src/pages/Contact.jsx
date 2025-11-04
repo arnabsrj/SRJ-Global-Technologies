@@ -337,7 +337,7 @@ const Contact = () => {
                 Uttar Pradesh 201304
               </p>
             </div>
-            <svg
+            {/* <svg
               className="w-6 h-6 text-[#0A49D9] dark:text-[#38BDF8]"
               fill="none"
               stroke="currentColor"
@@ -357,7 +357,7 @@ const Contact = () => {
                 <br></br>
                 Uttar Pradesh 201313
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 
